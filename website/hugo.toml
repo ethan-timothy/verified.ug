@@ -1,0 +1,24 @@
+baseURL = 'https://verified.ug/'
+locale = 'en-us'
+title = 'Uganda Verified'
+theme = 'verified'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[[menus.main]]
+  name = 'Home'
+  url = '/'
+  weight = 1
+
+[[menus.main]]
+  name = 'Verified Accounts'
+  url = '/verified/'
+  weight = 2
+
+[[menus.main]]
+  name = 'Get Verified'
+  url = '/get-verified/'
+  weight = 3

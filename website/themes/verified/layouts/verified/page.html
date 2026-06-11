@@ -1,0 +1,57 @@
+{{ define "main" }}
+
+<div class="profile-wrap">
+  <div class="container">
+    <div class="profile">
+
+      <div class="profile-header">
+        <div class="profile-identity">
+          <div class="profile-meta">
+            {{- with .Params.category }}
+            <span class="badge badge-{{ lower . }}">{{ . }}</span>
+            {{- end }}
+            {{- with .Params.location }}
+            <span class="profile-location">📍 {{ . }}</span>
+            {{- end }}
+          </div>
+          <h1 class="profile-name">{{ .Title }}</h1>
+          {{- with .Params.tagline }}
+          <p class="profile-tagline">{{ . }}</p>
+          {{- end }}
+          {{- with .Params.website }}
+          <div class="profile-links">
+            <a href="{{ . }}" class="btn btn-sm btn-outline" target="_blank" rel="noopener noreferrer">Visit Website ↗</a>
+          </div>
+          {{- end }}
+        </div>
+
+        <div>
+          <div class="verified-seal">
+            <div class="verified-seal-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="white">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+              </svg>
+            </div>
+            <div class="verified-seal-text">
+              <strong>Uganda Verified</strong>
+              {{- with .Params.verified_since }}
+              <span>Since {{ dateFormat "January 2006" . }}</span>
+              {{- end }}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {{- with .Content }}
+      <div class="profile-body">
+        {{ . }}
+      </div>
+      {{- end }}
+
+      <a href="/verified/" class="back-link">← All Verified Accounts</a>
+
+    </div>
+  </div>
+</div>
+
+{{ end }}

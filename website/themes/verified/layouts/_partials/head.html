@@ -1,0 +1,6 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .IsHome }}{{ site.Title }} — Verifying Uganda's Digital Identities{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}Uganda Verified — a trusted directory of verified individuals and organizations in Uganda.{{ end }}{{ end }}">
+{{ partialCached "head/css.html" . }}
+{{ partialCached "head/js.html" . }}

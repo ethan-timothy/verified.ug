@@ -1,0 +1,43 @@
+{{ define "main" }}
+
+<div class="page-header">
+  <div class="container">
+    <h1>Verified Accounts</h1>
+    <p>These individuals and organizations have been personally verified by the Uganda Verified team through live video calls and official document review.</p>
+  </div>
+</div>
+
+<div class="cards-section">
+  <div class="container">
+    <div class="cards-grid">
+      {{- range .Pages }}
+      <a href="{{ .RelPermalink }}" class="card">
+        <div class="card-top">
+          {{- with .Params.category }}
+          <span class="badge badge-{{ lower . }}">{{ . }}</span>
+          {{- else }}
+          <span class="badge badge-default">Verified</span>
+          {{- end }}
+          <span class="verified-check">Verified</span>
+        </div>
+        <h2 class="card-title">{{ .Title }}</h2>
+        {{- with .Params.tagline }}
+        <p class="card-tagline">{{ . }}</p>
+        {{- end }}
+        <div class="card-meta">
+          <span>{{ with .Params.location }}{{ . }}{{ else }}Uganda{{ end }}</span>
+          {{- with .Params.verified_since }}
+          <span>Since {{ dateFormat "Jan 2006" . }}</span>
+          {{- end }}
+        </div>
+      </a>
+      {{- else }}
+      <div class="empty-state">
+        <p>No verified accounts listed yet. <a href="/get-verified/">Be the first to apply.</a></p>
+      </div>
+      {{- end }}
+    </div>
+  </div>
+</div>
+
+{{ end }}

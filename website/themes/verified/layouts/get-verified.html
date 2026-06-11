@@ -1,0 +1,100 @@
+{{ define "main" }}
+
+<div class="page-header">
+  <div class="container">
+    <h1>Get Verified</h1>
+    <p>Book a verification appointment. We'll schedule a video call to review your credentials and documents.</p>
+  </div>
+</div>
+
+<div class="get-verified-wrap">
+  <div class="container">
+    <div class="get-verified-inner">
+
+      <div class="fee-notice">
+        <p>
+          <strong>Non-refundable application fee: UGX 25,000 (~$7 USD)</strong><br>
+          This fee covers the time spent reviewing your application and conducting the video call, and helps keep this platform running. The fee is due before the call is scheduled. This fee is non-refundable regardless of the outcome.
+        </p>
+      </div>
+
+      <form method="POST" action="https://formspree.io/f/YOUR_FORM_ID">
+        <input type="hidden" name="_subject" value="New verification application — Uganda Verified">
+        <input type="text" name="_gotcha" style="display:none;">
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="first-name">First name <span>*</span></label>
+            <input class="form-control" type="text" id="first-name" name="first_name" required placeholder="e.g. Amelia">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="last-name">Last name <span>*</span></label>
+            <input class="form-control" type="text" id="last-name" name="last_name" required placeholder="e.g. Nakato">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="email">Email address <span>*</span></label>
+          <input class="form-control" type="email" id="email" name="email" required placeholder="you@example.com">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="phone">Phone number</label>
+          <input class="form-control" type="tel" id="phone" name="phone" placeholder="+256 7XX XXX XXX">
+          <p class="form-hint">Optional but helpful for scheduling.</p>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="category">Applying as <span>*</span></label>
+            <select class="form-control" id="category" name="category" required>
+              <option value="" disabled selected>Select type</option>
+              <option value="Individual">Individual</option>
+              <option value="Organization">Organization / NGO</option>
+              <option value="Business">Business</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="location">City / District <span>*</span></label>
+            <input class="form-control" type="text" id="location" name="location" required placeholder="e.g. Kampala">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="org-name">Organization or project name</label>
+          <input class="form-control" type="text" id="org-name" name="org_name" placeholder="Leave blank if applying as an individual">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="description">Tell us about yourself / your work <span>*</span></label>
+          <textarea class="form-control" id="description" name="description" required rows="5" placeholder="Briefly describe what you do, the project you're working on, and why you'd like to be verified."></textarea>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="preferred-time">Preferred call time <span>*</span></label>
+          <select class="form-control" id="preferred-time" name="preferred_time" required>
+            <option value="" disabled selected>Select a window</option>
+            <option value="Morning (8am–12pm EAT)">Morning (8am–12pm EAT)</option>
+            <option value="Afternoon (12pm–5pm EAT)">Afternoon (12pm–5pm EAT)</option>
+            <option value="Evening (5pm–8pm EAT)">Evening (5pm–8pm EAT)</option>
+          </select>
+          <p class="form-hint">We'll follow up by email to confirm the exact date and time.</p>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="website">Website or social media link</label>
+          <input class="form-control" type="url" id="website" name="website" placeholder="https://...">
+          <p class="form-hint">Optional. Helps us prepare for the call.</p>
+        </div>
+
+        <div class="form-submit">
+          <button type="submit" class="btn btn-primary">Submit Application →</button>
+          <p>We'll reply within 2–3 business days to confirm your appointment and payment details.</p>
+        </div>
+      </form>
+
+    </div>
+  </div>
+</div>
+
+{{ end }}
