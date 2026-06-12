@@ -3,7 +3,7 @@ website/public/
 website/resources/_gen/
 
 # Hugo cache
-.hugo_build.lock
+# .hugo_build.lock
 
 # Theme dependencies (managed separately)
 website/themes/*/node_modules/
