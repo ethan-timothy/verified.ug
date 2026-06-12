@@ -1,23 +1,23 @@
 ---
-title: "Hope Kampala Foundation"
+title: "Eco Youths Network - UG"
 category: "Organization"
-tagline: "Providing education and safe shelter for street children in Kampala."
-location: "Kampala, Uganda"
-verified_since: "2024-03-10"
-website: "https://hopekampala.example.org"
+tagline: "Empowering Youths for Sustainability."
+location: "Kiboga, Central Uganda"
+verified_since: "2026-06-10"
+website: "https://mas.to/econetwork"
 ---
 
-## About Hope Kampala Foundation
+## About Eco Youths Network
 
-Hope Kampala Foundation is a registered non-profit organization dedicated to providing educational support, nutritional assistance, and safe housing for children living on the streets of Kampala. Founded in 2018, the organization currently serves over 200 children across three centers in Nakawa, Kawempe, and Rubaga divisions.
+Eco Youths Network is a youth-led community organization committed to promoting environmental conservation, sustainable development, and youth empowerment. Through education, community engagement, and practical environmental initiatives, the organization works to inspire young people to become active stewards of their communities and the environment, through food production and nature protection.
 
-## What We Do
+## What they Do
 
-- **Education Program** — Full-time schooling and tutoring support for children aged 5–17, including school fees and materials.
-- **Shelter & Nutrition** — Safe residential facilities with three meals a day, counseling, and healthcare access.
-- **Family Reunification** — A dedicated team that works to locate and reconnect children with their families where it is safe to do so.
-- **Vocational Training** — Skills programs for older youth (18+) covering carpentry, tailoring, and computer literacy.
+- **Environmental Education** — Organizing awareness campaigns, workshops, and training sessions that educate young people and communities about environmental protection, climate change, and sustainable practices.
+- **Tree Planting & Conservation** — Coordinating tree-planting activities, habitat restoration projects, and conservation initiatives that contribute to greener and healthier communities.
+- **Youth Empowerment** — Equipping young people with leadership skills, environmental knowledge, and opportunities to participate in community development and sustainability projects.
+- **Community Engagement** — Working with schools, local leaders, and community groups to promote environmental responsibility and encourage collective action toward a sustainable future..
 
 ## Verification Notes
 
-The Uganda Verified team conducted a video call on 10 March 2024 with the Executive Director, reviewed the NGO Board registration certificate (NGO/2018/0417), and confirmed the organization's physical address in Nakawa, Kampala.
+The Uganda Verified team conducted a video call on 12th June, 2026 with the Executive Director, reviewed the CBO Board registration certificate (WCBO/25/1110), and confirmed the organization's physical headquaters/office in Kiboga, Kampala.

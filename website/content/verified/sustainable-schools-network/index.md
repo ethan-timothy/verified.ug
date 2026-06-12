@@ -4,22 +4,26 @@ category: "Organization"
 tagline: "Promoting environmental conservation and ecological literacy through schools in Central Uganda"
 location: "Kiboga, Uganda"
 verified_since: "2026-06-11"
-website: "https://sustainable-schools-network.org"
+website: "https://mas.to/@sustainable_schools"
 ---
 
-## About the Sustainable Schools Network(SSN)
+### About Sustainable Schools Network (SSN)
 
-SSN is a registered non-profit Community Based Organization in central Uganda WCBO/25/230 dedicated to promoting Environmental conservation and ecological literacy in Schools across Central Uganda.
-
-The SSN project was Co-Founded by Ethan & Pacific in 2025 after their High School Completion, accompaned by their tough decision of not going to college nor university, but instead do something that could benefit their community.
+Sustainable Schools Network (SSN) is an organization dedicated to promoting sustainability, environmental awareness, and climate action within educational institutions. By working with students, teachers, and school communities, SSN helps integrate sustainable practices into everyday learning and school operations.
 
 ## What We Do
 
-- **Climate Education** — We spare a few moments and teach students how fast the world is turning into a desert and what possible actions could be done.
-- **Shelter & Nutrition** — Safe residential facilities with three meals a day, counseling, and healthcare access.
-- **Family Reunification** — A dedicated team that works to locate and reconnect children with their families where it is safe to do so.
-- **Vocational Training** — Skills programs for older youth (18+) covering carpentry, tailoring, and computer literacy.
+**Sustainability Education** — Delivering training, workshops, and educational programs that help students and educators understand environmental challenges and sustainable solutions.
+
+**School Greening Initiatives** — Supporting schools in implementing projects such as tree planting, waste management, school gardens, and energy conservation activities.
+
+**Climate Action Programs** — Engaging young people in practical climate initiatives that encourage environmental responsibility and community leadership.
+
+**Capacity Building** — Providing resources, guidance, and networking opportunities that enable schools to develop and maintain long-term sustainability programs.
 
 ## Verification Notes
 
-The Uganda Verified team conducted a video call on 10 March 2024 with the Executive Director, reviewed the NGO Board registration certificate (NGO/2018/0417), and confirmed the organization's physical address in Nakawa, Kampala.
+The Uganda Verified team conducted a review of the organization's activities, leadership, and supporting documentation. Verification included confirmation of the organization's engagement with schools and its ongoing efforts to promote sustainability, environmental stewardship, and climate education.
+This was all through a video call, and submission of the registration certificate WCBO/25/230.
+
+The organisation physical address is in Lunnya, Kiboga
